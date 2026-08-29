@@ -79,7 +79,11 @@ curl -L -o data/UNSW_NB15_testing-set.csv \
 | 随机森林 | 75.5% | 0.46 | 87.8% | 0.90 |
 | **XGBoost** | **76.4%** | **0.51** | **87.5%** | **0.90** |
 
-混淆矩阵见 `models/rf_confusion.png` 与 `models/xgb_confusion.png`。
+混淆矩阵(XGBoost / 随机森林):
+
+![XGBoost 多分类混淆矩阵](models/xgb_confusion.png)
+
+![随机森林 多分类混淆矩阵](models/rf_confusion.png)
 
 ### 类别不平衡的改进尝试
 
